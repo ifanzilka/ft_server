@@ -4,4 +4,5 @@
 
 #### Docker command
 `docker images` смотрим локальные образы
+
 `docker ps` смотрим контейнеры
