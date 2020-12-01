@@ -2,6 +2,8 @@
 
 * [Video Docker](https://www.youtube.com/watch?v=QF4ZF857m44)
 
+* [Docker Download](https://www.docker.com/products/docker-desktop)
+
 ## Docker command
 
 #### Смотрим локальные образы
