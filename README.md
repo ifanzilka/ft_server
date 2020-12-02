@@ -4,6 +4,7 @@
 
 * [Docker Download](https://www.docker.com/products/docker-desktop)
 
+* [Docker Download from Linux](https://www.digitalocean.com/community/tutorials/docker-ubuntu-18-04-1-ru)
 ## Docker command
 
 #### Смотрим локальные образы
