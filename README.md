@@ -15,4 +15,10 @@
       docker ps 
 #### Создаем Docker образ свой
       
-      docker build
+       sudo docker build -t hello_world .  
+      
+ -t -> flag
+ 
+ hello_world -> name image
+ 
+ . -> directory
