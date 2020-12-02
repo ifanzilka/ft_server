@@ -41,4 +41,7 @@
 #### Запускаем Docker в фоне (флаг -d)
      sudo docker run --name hello1 -d  hello_world
 
+#### Запускаем Docker с самоудалением
+
+     sudo docker run --name hello1 -d --rm hello_world
     
