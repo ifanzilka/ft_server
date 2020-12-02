@@ -22,3 +22,6 @@
  hello_world -> name image
  
  . -> directory
+#### Запускаем Docker
+      
+       sudo docker run hello_world
