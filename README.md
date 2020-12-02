@@ -25,3 +25,6 @@
 #### Запускаем Docker
       
        sudo docker run hello_world
+#### Смотрим контейнеры  даже если они не запущены
+
+      sudo docker ps -a
