@@ -28,3 +28,7 @@
 #### Смотрим контейнеры  даже если они не запущены
 
       sudo docker ps -a
+
+#### Запускаем контейнер и задаем имя
+    
+    sudo docker run --name hello hello_world
