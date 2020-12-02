@@ -32,3 +32,8 @@
 #### Запускаем контейнер и задаем имя
     
     sudo docker run --name hello hello_world
+#### Удаляем Docker
+    
+    sudo docker rm 7c44ed0fd2f5
+    OR
+    sudo docker rm $(sudo docker ps -qa)
