@@ -37,3 +37,8 @@
     sudo docker rm 7c44ed0fd2f5
     OR
     sudo docker rm $(sudo docker ps -qa)
+    
+#### Запускаем Docker в фоне (флаг -d)
+     sudo docker run --name hello1 -d  hello_world
+
+    
