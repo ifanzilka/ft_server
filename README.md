@@ -20,3 +20,7 @@
 
      
     sudo docker run --name docker_site -p 8080:8080 --rm web-test
+
+### Запускаем с переменной окуржения
+
+    sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow --rm web-test 
