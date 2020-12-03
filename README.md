@@ -16,6 +16,7 @@
 ### Создаем образ
      sudo docker build -t web-test .
      
-### Запускаем его
+### Запускаем его с указание портов
 
-     sudo docker run --name docker_site -d --rm web-test
+     
+    sudo docker run --name docker_site -p 8080:8080 --rm web-test
