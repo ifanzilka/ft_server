@@ -15,3 +15,7 @@
     pip install -r  requirements.txt
 ### Создаем образ
      sudo docker build -t web-test .
+     
+### Запускаем его
+
+     sudo docker run --name docker_site -d --rm web-test
