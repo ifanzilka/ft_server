@@ -10,3 +10,6 @@
 
  #### Docker 2
  
+Установка заисимостей для (если другой использует)
+ 
+    pip install -r  requirements.txt
