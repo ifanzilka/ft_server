@@ -24,3 +24,6 @@
 ### Запускаем с переменной окуржения
 
     sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow --rm web-test 
+### Добавляем файлы в контейнер
+
+    sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow  -v /home/ifanzilka/PycharmProjects/Docker_Python_2/resources:/usr/src/app/resources  --rm web-test
