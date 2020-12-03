@@ -27,3 +27,8 @@
 ### Добавляем файлы в контейнер
 
     sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow  -v /home/ifanzilka/PycharmProjects/Docker_Python_2/resources:/usr/src/app/resources  --rm web-test
+
+### Добавляем volume(папку)
+   
+    sudo docker volume create web
+    sudo docker volume ls 
