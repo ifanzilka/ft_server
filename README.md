@@ -32,3 +32,7 @@
    
     sudo docker volume create web
     sudo docker volume ls 
+    
+### Запуск через c volume    
+    sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow  -v web:/usr/src/app/resources  --rm web-test
+
