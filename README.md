@@ -8,4 +8,8 @@
 
 * [Docker Download from Linux](https://www.digitalocean.com/community/tutorials/docker-ubuntu-18-04-1-ru)
 
+ #### ngnix
  
+     sudo apt install nginx
+     sudo service  nginx stop
+     sudo service  nginx start
