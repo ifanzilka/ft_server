@@ -17,6 +17,11 @@
 ### Добавляем файлы в контейнер
 
     sudo docker run --name docker_site -p 8080:8080 -e TZ=Europe/Moscow  -v /home/ifanzilka/PycharmProjects/Docker_Python_2/resources:/usr/src/app/resources  --rm web-test
+    
+    docker run -v <DIRECTORY>:<CONTAINER_DIRECTORY> ...,
+   где DIRECTORY - это путь к папке, которую нужно смонтировать,
+   
+   CONTAINER_DIRECTORY - путь внутри контейнера.
 
 ### Добавляем volume(папку)
    
