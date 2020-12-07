@@ -22,3 +22,15 @@ Utils :
   [Install php](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mariadb-php-lemp-stack-on-debian-10)
   [Install phpmyadmin](https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10)
   [Install wordpress](https://www.osradar.com/install-wordpress-debian-10/)
+## Usage
+
+```shell
+# Build image
+docker build -t ft_server .
+
+# Run image
+docker run -it -p 80:80 -p 443:443 ft_server
+```
+* SSL auto-certificate is created
+* MySQL is automatically created
+* Wordpress is automatically setup
