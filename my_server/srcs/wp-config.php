@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'wp_base' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'adminwp' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'admin' );
+define( 'DB_PASSWORD', 'adminwp' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
