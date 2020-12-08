@@ -11,6 +11,8 @@
 * [Site](https://forhjy.medium.com/how-to-install-lemp-wordpress-on-debian-buster-by-using-dockerfile-1-75ddf3ede861)
 
 * [Nginx](https://nginx.org/ru/docs/beginners_guide.html)
+
+* [SSL](https://habr.com/ru/post/352722/)
  #### ngnix
  
      sudo apt install nginx
