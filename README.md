@@ -20,6 +20,13 @@
      sudo apt install nginx
      sudo service  nginx stop
      sudo service  nginx start
+     
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-nginx-mariadb-and-php-on-debian-10
+
+https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
+
 Utils :
   [Generate SSL](https://linuxize.com/post/creating-a-self-signed-ssl-certificate/)
   [SSL](https://admin-serv.net/blog/670/creer-et-installer-un-certificat-ssl-sous-nginx/)
