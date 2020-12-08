@@ -116,7 +116,7 @@ $cfg['SaveDir'] = '';
  * uncomment the desired line:
  * default = 'en'
  */
-$cfg['DefaultLang'] = 'ru';
+$cfg['DefaultLang'] = 'en';
 //$cfg['DefaultLang'] = 'de';
 
 /**

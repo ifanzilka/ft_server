@@ -8,16 +8,21 @@ RUN apt-get -y install wget
 RUN apt-get -y install vim
 
 
-# install programm
+# install programm ang plagins
 RUN apt-get install -y nginx
 RUN apt-get install -y mariadb-server
 RUN apt-get -y install php-fpm php-mysql
 RUN apt-get install -y php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
 
-# setting nginx congig
+# php-curl ->other protocol
+# php gd -> for images
+
+
+# setting nginx config
 WORKDIR /etc/nginx/sites-available/
-COPY ./srcs/nginx_autoindex_on.conf .
-RUN ln -s /etc/nginx/sites-available/nginx_autoindex_on.conf /etc/nginx/sites-enabled/
+COPY ./srcs/nginx.conf /etc/nginx/sites-available/nginx.conf
+RUN ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled
+
 
 #www/server create dir and exit
 WORKDIR /var/www/server
@@ -28,15 +33,11 @@ RUN chown -R www-data:www-data /var/www/server/wordpress
 WORKDIR /var/www/server/wordpress
 COPY ./srcs/wp-config.php .
 
-
-# READ!
-RUN chmod 777 /var/www/server/wordpress/wp-config.php
+# config (databse name, Name, Password)
+# chown -> права пользователя
 
 WORKDIR /
-COPY ./srcs/nginx_autoindex_on.conf .
-COPY ./srcs/nginx_autoindex_off.conf .
-COPY ./srcs/autoindex_on.sh .
-COPY ./srcs/autoindex_off.sh .
+COPY ./srcs/autoindex.sh .
 
 
 ### download php-myadmin

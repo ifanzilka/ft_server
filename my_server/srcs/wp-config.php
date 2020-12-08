@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'wp_base' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'admin' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -46,7 +46,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'впишите сюда уникальную фразу' );
+/*define( 'AUTH_KEY',         'впишите сюда уникальную фразу' );
 define( 'SECURE_AUTH_KEY',  'впишите сюда уникальную фразу' );
 define( 'LOGGED_IN_KEY',    'впишите сюда уникальную фразу' );
 define( 'NONCE_KEY',        'впишите сюда уникальную фразу' );
@@ -54,7 +54,7 @@ define( 'AUTH_SALT',        'впишите сюда уникальную фра
 define( 'SECURE_AUTH_SALT', 'впишите сюда уникальную фразу' );
 define( 'LOGGED_IN_SALT',   'впишите сюда уникальную фразу' );
 define( 'NONCE_SALT',       'впишите сюда уникальную фразу' );
-
+*/
 /**#@-*/
 
 /**
