@@ -12,4 +12,4 @@ mysql -e "UPDATE mysql.user SET plugin='mysql_native_password' WHERE user='$user
 mysql -e "FLUSH PRIVILEGES;"
 
 #phpmyadmin database
-mysql < /var/www/phpmyadmin/sql/create_tables.sql
+mysql < /var/www/server/phpmyadmin/sql/create_tables.sql
