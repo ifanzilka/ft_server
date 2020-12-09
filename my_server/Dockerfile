@@ -59,6 +59,10 @@ COPY ./srcs/db.sh .
 RUN bash db.sh
 RUN rm -rf db.sh
 
+#ADD index.html
+WORKDIR /var/www/server
+COPY ./srcs/index.html .
+
 WORKDIR /
 COPY ./srcs/start.sh .
 
