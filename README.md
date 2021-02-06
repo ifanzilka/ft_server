@@ -29,6 +29,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-
 
 https://wiki.merionet.ru/servernye-resheniya/45/kak-nastroit-redirekt-s-http-na-https-v-nginx/
 
+https://github.com/alexandregv/42toolboxhttps://github.com/alexandregv/42toolboxv
+
+https://github.com/alexandregv/42toolbox
+
 Utils :
   [Generate SSL](https://linuxize.com/post/creating-a-self-signed-ssl-certificate/)
   [SSL](https://admin-serv.net/blog/670/creer-et-installer-un-certificat-ssl-sous-nginx/)
