@@ -42,13 +42,29 @@ Utils :
   [Install wordpress](https://www.osradar.com/install-wordpress-debian-10/)
 ## Usage
 
-```shell
-# Build image
-docker build -t ft_server .
+#### Prerequisites
 
-# Run image
-docker run -it --rm -p 80:80 -p 443:443 ft_server
-```
-* SSL auto-certificate is created
-* MySQL is automatically created
-* Wordpress is automatically setup
+Docker: https://docs.docker.com/engine/install/
+
+#### Build Instructions
+
+###### Docker commands
+
+`docker build -t $(IMAGE_NAME) .` builds the image\
+`docker run -d -p 80:80 -p 443:443 --name $(CONTAINER_NAME) $(IMAGE_NAME)` runs the image as a container\
+`docker stop $(CONTAINER_NAME)` stops the container\
+`docker rmi $(IMAGE_NAME)` removes the image\
+`docker rm $(CONTAINER_NAME)` removes the container\
+`docker exec -it $(CONTAINER_NAME) bash` access the server CLI\
+`docker exec $(CONTAINER_NAME) bash /autoindex.sh on` enables directory listing\
+`docker exec $(CONTAINER_NAME) bash /autoindex.sh off` disables directory listing\
+
+#### Acess
+
+You can acess the website from your browser:
+
+- <https://localhost>  or <https://ftserver.com>
+- <https://localhost/wordpress>  or <https://ftserver.com/wordpress>
+- <https://localhost/phpmyadmin>  or <https://ftserver.com/phpmyadmin>
+
+![docker-logo](https://user-images.githubusercontent.com/56961723/85928195-716b5780-b8ab-11ea-940e-6fb29546fb25.png)
